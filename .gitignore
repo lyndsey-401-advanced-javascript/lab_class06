@@ -10,6 +10,7 @@ aws.yml
 
 **/docs/*
 !**/docs/config/
+!**/docs/swagger.json
 
 # ignore the webstorm ide dir
 .idea/

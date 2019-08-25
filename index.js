@@ -10,6 +10,9 @@ server.start(3000);
 //sets .env environment variables (port, API keys, etc)
 require('dotenv').config();
 
+// eslint-disable-next-line
+const swagger = require('./docs/swagger');
+
 //configuring connection to mongo
 const mongoose = require('mongoose');
 
